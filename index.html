@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-r">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lobo Desenvolvedor</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <img src="/img/marca.svg" alt="lobo">
+    <nav>
+      <ul class="header_menu">
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="introducao">
+    <img src="/img/perfil.jpg" alt="Lobo Cinza">
+    <div>
+      <h1>Desenvolvedor <br> Front End <br>Maceió/São Paulo</h1>
+      <p>Localizado no Estado de Alagoas</p>
+    </div>
+  </main>
+  <!-- id de experiencia para quando clicar no link de navegação mandar para essa seção do site -->
+  <section class="experiencia" id="experiencia" aria-label="Experiência">
+    <h2 class="subtitulo">Experiência</h2>
+    <div>
+      <p class="experiencia_texto">Desenvolvo pequenos projetos em Front End, utilizando <strong>HTML</strong>,<strong>CSS</strong> e <strong>JS</strong>.Para aplicações em Web e demais plataformas</p>
+      <div class="empresa">
+        <span class="empresa_ano">2045</span>
+        <h3 class="empresa_titulo">Empresa 1</h3>
+        <!-- O nome do span é o mesmo do título da empresa para reaproveitar o estilo do css -->
+        <span class="empresa_titulo">Desenvolvedor Júnior</span>
+        <p class="empresa_texto">No projeto alfa1 na empresa 1 eu trabalhei como desenvolvedor Front End, aplicando conhecimentos em HTML, CSS e JS, além de consultoria em sistemas de recomendação</p>
+        <ul class="empresa_habilidades">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS</li>
+        </ul>
+      </div>
+
+      <div class="empresa">
+        <span class="empresa_ano">2095</span>
+        <h3 class="empresa_titulo">Empresa 2</h3>
+        <!-- O nome do span é o mesmo do título da empresa para reaproveitar o estilo do css -->
+        <span class="empresa_titulo">Desenvolvedor Júnior II</span>
+        <p class="empresa_texto">No projeto alfa1 na empresa 1 eu trabalhei como desenvolvedor Front End, aplicando conhecimentos em HTML, CSS e JS, além de consultoria em sistemas de recomendação</p>
+        <ul class="empresa_habilidades">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS</li>
+          <li>ML</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="formacao" id="formacao" aria-label="formação">
+    <!-- Container para deixar o conteúdo com 1200px e o section será todo preto -->
+    <div class="container_formacao">
+      <h2 class="subtitulo">Formação</h2>
+      <div>
+        <p class="formacao_texto">Minha graduação é em Engenharia Civil mas migrei para área de <strong>Web Designer</strong> em <strong>Front End</strong></p>
+        <ul class="faculdade_lista">
+          <li class="faculdade">
+            <span class="faculdade_tipo">Bacharel</span>
+            <h3 class="faculdade_curso">Engenharia Civil</h3>
+            <span class="faculdade_instituicao">UFAL - Universidade Federal de Alagoas</span>
+          </li>
+          <li class="faculdade">
+            <span class="faculdade_tipo">Curso Origamid</span>
+            <h3 class="faculdade_curso">Front End</h3>
+            <span class="faculdade_instituicao">Origamid</span>
+          </li>
+        </ul>
+        <!-- Área de Cursos extra e idiomas -->
+        <div class="formacao_extra">
+          <div class="cursos">
+            <h3>Cursos Intensivos</h3>
+            <ul>
+              <li>Front End para iniciantes <span>Total de horas</span></li>
+              <li>Front End CSS Grid Avançado <span>Total de horas</span></li>
+            </ul>
+          </div>
+          <div class="idiomas">
+            <h3>Idiomas</h3>
+            <ul>
+              <li>Português <span>Nível de Fluência</span></li>
+              <li>Inglês <span>Nível de Fluência</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer" id="contato" aria-label="contato">
+    <div class="container_footer">
+      <p class="footer_texto">Estou disponível para novos projetos e trabalhos, entre em contato e marcamos uma reunião</p>
+      <ul class="footer_contato">
+        <li>Email</li>
+        <li>Telefone</li>
+        <li><a href="/">Link para linkedin</a></li>
+      </ul>
+      <p class="footer_copy">Alguns direitos desse site são reservados.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

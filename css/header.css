@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+  /*Ajustando o site ao centro com limite de crescimento*/
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header_menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.header_menu a {
+  text-decoration: none;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: #141414;
+  padding: 10px 20px;
+  display: block;
+}
+/* Responsividade */
+@media (max-width: 500px) {
+  .header {
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+  .header_menu a {
+    background-color: #f5f5f5;
+    border-radius: 4px;
+  }
+}
