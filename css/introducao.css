@@ -31,6 +31,9 @@
   font-size: 1.5rem;
   color: #525252;
 }
+.introducao img {
+  border-radius: 30px;
+}
 /* Ajuste de responsividade */
 @media (max-width: 800px) {
   .introducao h1 {
