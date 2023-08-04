@@ -1,4 +1,7 @@
 /* Ajustes gerais do site */
+html {
+  scroll-behavior: smooth !important;
+}
 body {
   margin: 0px;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
